@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12f</title>
+
+    <style>
+      .header {
+        color: white;
+        background-color: rgb(118, 34, 221);
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: bold;
+        height: 60px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .left-section {
+        margin-left: 20px;
+        width: 300px;
+      }
+
+      .middle-section {
+        flex: 1;
+      }
+
+      .search-bar {
+        width: 700px;
+        height: 30px;
+        border-style: none;
+        border-radius: 15px;
+        padding-left: 20px;
+        max-width: 700px;
+      }
+
+      .right-section {
+        width: 120px;
+        margin-right: 10px;
+      }
+
+      .text-download {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 2px;
+        cursor: pointer;
+      }
+
+      .text-download:hover {
+        opacity: 0.7;
+      }
+
+      .text-download:active {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <p style="cursor: pointer;">Home</p>
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="search" placeholder="Search">
+      </div>
+      
+      <div class="right-section">
+        <p class="text-download">Download</p>
+      </div>
+    </div>
+  </body>
+</html>
