@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13b</title>
+
+    <style>
+      .row-text {
+        color: white;
+        background-color: black;
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex;">
+      <div style="
+        width: 100px;
+        background-color: lightpink;
+      "></div>
+
+      <div style="
+        width: 200px;
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+      ">
+        <p style="
+          margin-top: 0;
+          margin-bottom: 0;
+        ">row1</p>
+        
+        <div style="
+          display: flex;
+          justify-content: space-between;
+        ">
+          <p class="row-text">row2</p>
+          <p class="row-text">row2</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

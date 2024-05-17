@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13d</title>
+
+    <style>
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .inbox {
+        width: 420px;
+        border-width: 1px;
+        border-style: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px rgb(94, 94, 94);
+        margin-top: 30px;
+        margin-left: 30px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+
+        display: flex;
+        flex-direction: column;
+      }
+
+      .head-section {
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+
+      .head-text {
+        color: rgb(85, 85, 85);
+        font-size: 15px;
+      }
+
+      .mail-section {
+        display: flex;
+        align-items: center;
+      }
+      
+      .profile-picture-section {
+        margin-right: 15px;
+      }
+
+      .profile-picture {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+
+      .info-section {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .title-line {
+        margin-top: -1px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .mail-title {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .mail-time {
+        color: rgb(85, 85, 85);
+        font-size: 14px;
+      }
+
+      .mail-subject {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+
+      .mail-text {
+        color: rgb(85, 85, 85);
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body style="font-family: Arial;">
+    <div class="inbox">
+      <div class="head-section">
+        <p class="head-text">ALL INBOXES</p>
+      </div>
+
+      <div class="mail-section">
+        <div class="profile-picture-section">
+          <img class="profile-picture" src="pictures/messi.webp">
+        </div>
+        
+        <div class="info-section">
+          <div class="title-line">
+            <p class="mail-title">Chewy Promotions</p>
+            <p class="mail-time">4:58 PM</p>
+          </div>
+
+          <div class="mail-subject">Biggest sales of the year!</div>
+          
+          <div class="mail-text">Hey there! We're writing to tell you about our...
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13g</title>
+
+    <style>
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .container {
+        display: flex;
+
+        width: 505px;
+        font-size: 18px;
+        font-family: Arial;
+        margin-top: 30px;
+        margin-left: 30px;
+      }
+      
+      .profile-picture-section {
+        margin-right: 20px;
+        vertical-align: top;
+      }
+      
+      .profile-picture {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 35px;
+        cursor: pointer;
+      }
+
+      .info-section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .user-info {
+        display: flex;
+
+        margin-bottom: 7px;
+      }
+
+      .profile-name {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+
+      .user-name {
+        color: rgb(68, 68, 68);
+      }
+
+      .description {
+        margin-bottom: 20px;
+      }
+
+      .link-box {
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(189, 189, 189);
+        border-radius: 22px;
+        overflow: hidden;
+
+        display: flex;
+      }
+
+      .gray-box {
+        width: 180px;
+        background-color: rgb(189, 189, 189);
+        margin-right: 20px;
+      }
+
+      .link-info {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-picture-section">
+        <img class="profile-picture" src="pictures/messi.webp">
+      </div>
+
+      <div class="info-section">
+        <div class="user-info">
+          <p class="profile-name">supersimple.dev</p>
+          <p class="user-name">@SuperSimpleDev</p>
+        </div>
+        
+        <p class="description">What is backend web development? A complete overview. New video is up!</p>
+
+        <div class="link-box">
+          <div class="gray-box"></div>
+          <div class="link-info">
+            <p style="color: rgb(68, 68, 68);">youtube.com</p>
+            <p style="
+              margin-top: 3px;
+              line-height: 24px;
+            ">Backend web development - a complete overview (2021)</p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
